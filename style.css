@@ -957,6 +957,9 @@ footer {
   .box1 {
     padding: 0px 40px;
   }
+  .box1-a > h1 {
+    font-size: 3rem;
+  }
   .box3,
   .box6,
   .box12,
@@ -1388,7 +1391,6 @@ footer {
     padding: 22px 35px;
   }
   .footer-box2 > div + div > button {
-    width: 260px;
     height: 50px;
     font-size: 16px;
   }
@@ -1402,5 +1404,12 @@ footer {
   .box16 {
     width: 100%;
     border-radius: 0px;
+  }
+}
+
+@media (max-width: 370px) {
+  .accordion-header > div:nth-child(2) {
+    font-size: 14px;
+    margin-left: 20px;
   }
 }
