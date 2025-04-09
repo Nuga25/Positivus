@@ -813,6 +813,7 @@ form > button {
   display: flex;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 .box15-a {
@@ -827,7 +828,7 @@ form > button {
 .box15-b {
   position: absolute;
   top: 8%;
-  right: 0;
+  right: -10%;
 }
 
 .footer {
